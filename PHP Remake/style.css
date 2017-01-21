@@ -1,0 +1,323 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/****************************Gangsta-Wrappers*************************/
+html, body {
+    width: 100%;
+    position: relative;
+}
+ div.main-wrapper {
+     position: relative;
+     width: 100%;
+     margin: auto;
+     max-width: 1000px;
+ }
+div.main-content-wrapper {
+    width: 100%;
+    position: relative;
+    padding: 10% 0;
+}
+div.bottom-row-wrapper {
+    width: 100%;
+}
+/***********************HEADER************************/
+header {
+    background-color: #fffabe;
+    width: 100%;
+    min-height: 72px;
+    margin: auto;
+    overflow: hidden;
+}
+nav, nav ul, nav ul li, .background-logo, div.candy p, div.candy img {
+    display: inline-block;
+}
+
+.background-logo {
+    height: 100%;
+    margin: auto;
+    padding: 20px 0 20px 25px;
+    width: 20%;
+}
+nav {
+    position: relative;
+    margin-left: 0;
+    max-width: 700px;
+    width: 80%;
+}
+nav ul li {
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    color: #515151;
+    font-size: 1em;
+    float: left;
+    padding: 5px;
+}
+nav ul a:first-child, nav ul:nth-child(2), nav ul:nth-child(3) {
+    padding-left: 50px;
+}
+nav ul {
+    padding-left: 0;
+}
+a:hover {
+    color: #d42551;
+}
+/****************************BRUCE BANNER*************************/
+.bruce-banner {
+    width: 100%;
+    margin: auto;
+}
+.bruce-banner img {
+    width: 100%;
+}
+/****************************MAIN-Content*************************/
+.left-column {
+    display: inline-block;
+    width: 30%;
+    float: left;
+}
+.left-column img {
+    padding: 35% 5% 0 10%;
+}
+.right-column {
+    display: inline-block;
+    width: 70%;
+    float: left;
+}
+div.main-content-wrapper h2 {
+    font-size: 1.250em;
+    color: #6a6969;
+}
+div.main-content-wrapper p {
+    color: #6a6969;
+    font-size: 0.875em;
+}
+/****************************BOTTOM-ROW*************************/
+.bottom-row-wrapper .days {
+    position: relative;
+    width: 12%;
+    min-height: 140px;
+    display: inline-block;
+    background-color: #fffabe;
+    color: #6a6969;
+    margin: 0 0 0 1.2%;
+}
+div.days p {
+    font-size: 0.857em;
+    padding-left: 10px;
+}
+div.days h4{
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 1px;
+    padding-left: 10px;
+}
+div.days img {
+    position: relative;
+}
+#coconut {
+    background-color: #824603;
+    color: white;
+}
+#vanilla {
+    background-color: #df5277;
+    color: white;
+}
+#lemon {
+    background-color: #a2304e;
+    color: white;
+}
+#almond {
+    background-color: #c39005;
+    color: white;
+}
+#chocolate img {
+    top: 20%;
+    left: 20%;
+    transform: translate(-20%, 50%)
+}
+#coconut img {
+    top: 20%;
+    left: 25%;
+    transform: translate(0, 50%)
+}
+#violet-cassis img {
+    top: 20%;
+    left: 20%;
+    transform: translate(-90%, 50%)
+}
+#green-tea img {
+    top: 20%;
+    left: 15%;
+    transform: translate(0, 50%)
+}
+#passion-fruit img {
+    top: 20%;
+    left: 21%;
+    transform: translate(-90%, 50%)
+}
+#vanilla img {
+    top: 20%;
+    left: 32%;
+    transform: translate(0, 50%)
+}
+#coffee img {
+    top: 20%;
+    left: 33%;
+    transform: translate(0, 50%)
+}
+#pistachio img {
+    top: 20%;
+    left: 19%;
+    transform: translate(0, 50%)
+}
+#raspberry img {
+    top: 20%;
+    left: 20%;
+    transform: translate(-20%, 50%)
+}
+#lemon img {
+    top: 20%;
+    left: 33%;
+    transform: translate(0, 50%)
+}
+#rose img {
+    top: 20%;
+    left: 42%;
+    transform: translate(0, 50%)
+}
+#tiffany-blue img {
+    top: 20%;
+    left: 28%;
+    transform: translate(-90%, 50%)
+}
+#caramel img {
+    top: 20%;
+    left: 28%;
+    transform: translate(-20%, 50%)
+}
+#almond img {
+    top: 20%;
+    left: 27%;
+    transform: translate(0, 50%)
+}
+/****************************Footer*************************/
+footer {
+    width: 100%;
+    background-color: #df5277;
+    min-height: 80px;
+    color: white;
+    font-size: 0.857em;
+    text-align: center;
+    font-weight: 300;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a, footer p, footer .follow-wrapper {
+    display: inline-block;
+}
+footer .phone {
+    margin: 10px 15% 0 20%;
+    padding-right: 15%;
+}
+footer.footer h4 {
+    font-weight: 300;
+    font-size: 0.857em;
+    transform: translate(-2.5%, -150%)
+}
+.follow-us, .facebook {
+    margin-right: 15px;
+}
+.follow-wrapper {
+    transform: translate(-70%, 2.5%);
+}
+
+
+/********************** NEW PAGE ********************/
+/****************** Our Macarons Page ****************/
+.om-left-column {
+    width: 100%;
+    max-height: 75%;
+    display: inline-block;
+    float: left;
+}
+.om-main-content-last-element {
+    clear: both;
+}
+
+.om-left-column ul li {
+    font-size: .875em;
+    color: #6a6969;
+}
+#om-left-column-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/********************** NEW PAGE ********************/
+/****************** Contact page ****************/
+
+#contact-columns div {
+    width: 32%;
+    display: inline-block;
+    box-sizing: content-box;
+}
+
+#contact-columns .text-column {
+    vertical-align: top;
+    padding-right: 2em;
+}
+
+#contact-columns .picture-column {
+    width: 28%;
+    padding-top: 5%;
+}
+
+#contact-columns img {
+    float: right;
+}
+
+#contact-columns p {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+form * {
+    border: none;
+    background-color: #f5f5f5;
+}
+form input {
+    width: 310px;
+    height: 35px;
+    margin-bottom: 5px;
+}
+
+form textarea {
+    width: 310px;
+    height: 70px;
+    margin-bottom: 5px;
+}
+
+form button {
+    width: 155px;
+    height: 35px;
+    margin-left: 155px;
+    margin-bottom: 5px;
+}
+/* Section big-image. */
+
+#rose_link {
+    color: #df5277;
+    text-decoration: none;
+}
+section {
+    width: 1000px;
+}
+
